@@ -1,7 +1,7 @@
-# 第01課 安裝ionic環境
+# 第01課 安裝Ionic環境
 
 
-#### ionic是一個用來建構App的開放框架, 可以用來產生iOS及Android App. 這裡的測試使用 Windows 7 作業系統, 主要生成Android App. 
+#### Ionic是一個用來建構App的開放框架, 可以用來產生iOS及Android App. 這裡的測試使用 Windows 7 作業系統, 主要生成Android App. 
 
 
 ## (1)下載及安裝 Java
@@ -30,3 +30,14 @@ Android Development Kits(ADK, Android開發套件) 可以在 `https://developer.
 Node.js 可以在 `https://nodejs.org/en/` 下載, 完成後點擊安裝.<p>
 圖示如下:<p>
 ![GitHub Logo](/images/fig01-04.jpg)
+
+
+
+## (4)下載及安裝 Cordova及Ionic
+
+Cordova及Ionic 可以在命令提示字元內用 npm 安裝, 鍵入 `npm install -g cordova ionic` , 完成安裝.<p>
+圖示如下:<p>
+![GitHub Logo](/images/fig01-05.jpg)
+
+Ionic的官網如下:<p>
+![GitHub Logo](/images/fig01-06.jpg)

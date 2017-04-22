@@ -19,7 +19,7 @@ Java Development Kits(JDK, Java開發套件) 可以在 `http://www.oracle.com/te
 
 ## (2)下載及安裝 Android
 
-Android Studio 可以在 `https://developer.android.com/studio/index.html` 下載, 完成後點擊安裝.<p>
+Android Development Kits(ADK, Android開發套件) 可以在 `https://developer.android.com/studio/index.html` 下載, 完成後點擊安裝.<p>
 圖示如下:<p>
 ![GitHub Logo](/images/fig01-03.jpg)
 

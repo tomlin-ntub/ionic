@@ -1,8 +1,7 @@
 # 第01課 安裝ionic環境
 
 
-#### ionic是一個用來建構App的開放框架, 可以用來產生iOS及Android App. 
-這裡的測試使用 Windows 7 作業系統, 主要生成Android App. 
+#### ionic是一個用來建構App的開放框架, 可以用來產生iOS及Android App. 這裡的測試使用 Windows 7 作業系統, 主要生成Android App. 
 
 
 ## (1)下載及安裝 Java

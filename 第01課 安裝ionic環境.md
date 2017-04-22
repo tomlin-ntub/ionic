@@ -35,7 +35,7 @@ Node.js 可以在 `https://nodejs.org/en/` 下載, 完成後點擊安裝.<p>
 
 ## (4)下載及安裝 Cordova及Ionic
 
-Cordova及Ionic 可以在命令提示字元內用 npm 安裝, 鍵入 `npm install -g cordova ionic` , 按下[Enter]開始安裝(大約10分鐘).<p>
+Cordova及Ionic 可以在命令提示字元內用 npm 安裝, 鍵入 `npm install -g cordova ionic` , 按下[Enter]鍵開始下載及安裝(約10分鐘).<p>
 圖示如下:<p>
 ![GitHub Logo](/images/fig01-05.jpg)
 

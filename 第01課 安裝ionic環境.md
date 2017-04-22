@@ -39,7 +39,7 @@ Cordova及Ionic 可以在命令提示字元內用 npm 安裝, 鍵入 `npm instal
 圖示如下:<p>
 ![GitHub Logo](/images/fig01-05.jpg)
 
-Ionic的官網如下:<p>
+Ionic的官網(https://ionicframework.com/)如下:<p>
 ![GitHub Logo](/images/fig01-06.jpg)
 
 

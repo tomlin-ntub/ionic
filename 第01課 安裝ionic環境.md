@@ -24,3 +24,9 @@ Android Development Kits(ADK, Android開發套件) 可以在 `https://developer.
 ![GitHub Logo](/images/fig01-03.jpg)
 
 
+
+## (3)下載及安裝 Node.js
+
+Node.js 可以在 `https://nodejs.org/en/` 下載, 完成後點擊安裝.<p>
+圖示如下:<p>
+![GitHub Logo](/images/fig01-04.jpg)

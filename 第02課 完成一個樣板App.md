@@ -27,7 +27,7 @@ ionic start myApp blank --v2
 cd myApp
 ionic serve -l
 ```
-其中 -l 是 lab, 執行圖示如下. <p>
+其中 -l 是 lab, 表示在瀏覽器中出現手機模擬器, 執行圖示如下. <p>
 ![GitHub Logo](/images/fig02-02.jpg)
 
 

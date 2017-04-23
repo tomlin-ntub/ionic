@@ -45,7 +45,7 @@ cordova build
 
 ## (4)安裝apk欄
 
-將apk檔以有線或無線方式傳給Android手機, 再安裝即可;<p>
+將apk檔以有線或無線方式傳給Android手機, 再安裝即可;<br>
 也可以上傳到雲端, 如apkinstall(官網: `http://www.apkinstall.com/`)的服務, 上傳apk檔, 產生QR-code, 由手機掃瞄QR-code下載程式.<p>
 圖示如下:<p>
 ![GitHub Logo](/images/fig02-04.jpg)

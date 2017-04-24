@@ -24,13 +24,13 @@
                  |                      |___ c.jpg (300*300px) 
                  |                 
                  |___ <pages>   
-                         |___ <home> 
-                         |      |___ home.html 
-                         |      |___ home.ts                          
-                         |      |___ home.scss   
-                         |      
-                         |___ <theme> 
-                                |___ variables.scss  
+                 |       |___ <home> 
+                 |              |___ home.html 
+                 |              |___ home.ts                          
+                 |              |___ home.scss 
+                 |
+                 |___ <themepages>   
+                         |___ variables.scss
 ```
 
 

@@ -22,12 +22,11 @@ npm start myApp blank --v2
           |                      |___ 多個.png圖檔              
           |               
           |___ <src>
-                 |___ <pages>  
-                 |       |___ <assets> 
-                 |              |___ <images> 
-                 |                      |___ a.jpg (300*300px) 
-                 |                      |___ b.jpg (300*300px) 
-                 |                      |___ c.jpg (300*300px) 
+                 |___ <assets> 
+                 |       |___ <images> 
+                 |               |___ a.jpg (300*300px) 
+                 |               |___ b.jpg (300*300px) 
+                 |               |___ c.jpg (300*300px) 
                  |                 
                  |___ <pages>   
                  |       |___ <home> 

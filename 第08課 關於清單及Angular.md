@@ -29,7 +29,7 @@
                  |              |___ home.ts                          
                  |              |___ home.scss 
                  |
-                 |___ <themepages>   
+                 |___ <theme>   
                          |___ variables.scss
 ```
 

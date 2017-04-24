@@ -37,7 +37,7 @@ ionic g provider BookService
 
 #### (App部份)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
 ```
-下載\myApp-測試-10.zip
+下載\ionic-測試-10.zip
 ```
 
 #### 本測驗使用內容如下:

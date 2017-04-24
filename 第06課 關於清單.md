@@ -3,7 +3,7 @@
 
 #### 使用blank樣板(如必要, 請參考第02課):
 ```
-npm start myApp blank --v2
+ionic start myApp blank --v2
 ```
 
 

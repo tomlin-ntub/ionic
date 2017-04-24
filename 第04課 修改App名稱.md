@@ -8,7 +8,7 @@ ionic start myApp blank --v2
 ```
 
 
-#### 本課程使用內容如下:
+#### 本測試使用內容如下:
 ```
  d:\
   |___ <myApp> 

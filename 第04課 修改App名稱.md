@@ -2,6 +2,11 @@
 
 
 
+
+#### 執行圖示
+![GitHub Logo](/images/fig04-01.jpg)
+
+
 #### 使用blank樣板(如必要, 請參考第02課):
 ```
 ionic start myApp blank --v2
@@ -113,6 +118,3 @@ ionic start myApp blank --v2
 ```
 
 
-#### 執行圖示
-完成本課程修改後, 畫面如下:<p>
-![GitHub Logo](/images/fig04-01.jpg)

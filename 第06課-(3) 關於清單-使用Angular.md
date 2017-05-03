@@ -1,4 +1,9 @@
-# 第08課 關於清單及Angular
+# 第06課-(3) 關於清單-使用Angular
+
+
+#### 執行圖示
+![GitHub Logo](/images/fig06-03.jpg)
+
 
 
 #### 使用blank樣板(如必要, 請參考第02課):
@@ -39,10 +44,6 @@ ionic start myApp blank --v2
 ```
 
 
-#### 執行圖示
-![GitHub Logo](/images/fig08-01.jpg)
-
-
 #### 下載
-下載/ionic-測試-08.zip
+下載/ionic-測試-06-3.zip
 

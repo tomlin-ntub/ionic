@@ -1,6 +1,12 @@
 # 第10課 連結 Express 伺服器
 
 
+
+#### 執行圖示
+![GitHub Logo](/images/fig10-01.jpg)
+
+
+
 #### (網站部份)建立Express網站, 名稱為 myWeb:
 ```
 express myWeb -ejs
@@ -69,8 +75,4 @@ ionic g provider BookService
                  |___ <theme>   
                          |___ variables.scss
 ```
-
-
-#### 執行圖示
-![GitHub Logo](/images/fig10-01.jpg)
 

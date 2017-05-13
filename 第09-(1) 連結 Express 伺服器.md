@@ -112,7 +112,7 @@ export class HomePage {
 </ion-header>
 
 <ion-content>
-  <!-- -------------------------------- -->
+  <!-- .................................. -->
   <ion-list>
     <ion-item *ngFor="let item of items">
       <ion-thumbnail item-left>
@@ -122,7 +122,7 @@ export class HomePage {
       <p>{{item.author}}</p>		
     </ion-item>
   </ion-list>
-  <!-- -------------------------------- -->	
+  <!-- .................................. -->	
 </ion-content>
 
 ```

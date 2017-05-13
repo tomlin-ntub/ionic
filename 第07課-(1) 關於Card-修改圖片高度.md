@@ -12,6 +12,21 @@ ionic start myApp blank --v2
 ```
 
 
+#### home.scss
+```
+page-home {
+    div.imageMain{
+        height:200px;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+```
+
+
+
 #### 本測試使用內容如下:
 ```
  d:\

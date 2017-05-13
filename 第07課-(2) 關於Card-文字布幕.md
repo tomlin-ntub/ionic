@@ -12,6 +12,52 @@ ionic start myApp blank --v2
 ```
 
 
+#### home.scss
+```
+page-home {  
+    .card-background-page {
+        ion-card {
+            position: relative;
+            height:200px;            
+        }
+
+        ion-card div.img{
+            height:200px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;           
+        }
+
+        ion-card div.message{
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:55px;
+            text-align:center;
+            background:rgba(0, 0, 0, 0.5);
+        }
+
+        .card-title {      
+            top: 36%;
+            font-size: 2.0em;
+            width: 100%;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        .card-subtitle {
+            font-size: 1.0em;            
+            top: 52%;
+            width: 100%;
+            color: #fff;
+        }
+    }    
+}
+
+```
+
+
+
 #### 本測試使用內容如下:
 ```
  d:\

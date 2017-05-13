@@ -42,7 +42,7 @@ ionic start myApp blank --save
 ```
 
 
-#### (3.1) app.module.ts
+#### (3.1) app.module.ts (增加匯入 HttpModule)
 ```javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -96,7 +96,7 @@ export class HomePage {
         this.http.get('http://140.131.115.72')			
             .subscribe(response => {
                 this.items=response.json();
-	           });			
+            });			
     }
 }
 ```
@@ -112,17 +112,17 @@ export class HomePage {
 </ion-header>
 
 <ion-content>
-	<!-- -------------------------------- -->
-	<ion-list>
-	  <ion-item *ngFor="let item of items">
-     <ion-thumbnail item-left>
-		     <img src="{{item.imgURL}}">
-		   </ion-thumbnail>
-		   <h2>{{item.title}}</h2>
-		   <p>{{item.author}}</p>		
-	  </ion-item>
-	</ion-list>
-	<!-- -------------------------------- -->	
+  <!-- -------------------------------- -->
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+      <ion-thumbnail item-left>
+        <img src="{{item.imgURL}}">
+      </ion-thumbnail>
+      <h2>{{item.title}}</h2>
+      <p>{{item.author}}</p>		
+    </ion-item>
+  </ion-list>
+  <!-- -------------------------------- -->	
 </ion-content>
 
 ```

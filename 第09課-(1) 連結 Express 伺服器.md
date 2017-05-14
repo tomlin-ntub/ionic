@@ -101,7 +101,7 @@ export class HomePage {
 }
 ```
 
-#### (3.2) home.html
+#### (3.3) home.html
 ```html
 <ion-header>
   <ion-navbar>

@@ -151,7 +151,7 @@ export class HomePage {
 </ion-header>
 
 <ion-content padding>
-    <!-- -------------------------------- -->
+    <!-- ............................. -->
     <ion-list>
         <ion-item>
             <ion-label floating>帳號</ion-label>
@@ -165,7 +165,7 @@ export class HomePage {
 
         <button ion-button block style="margin-top:50px" (click)="sendData()">登入</button>		
     </ion-list>
-    <!-- -------------------------------- -->	
+    <!-- ............................. -->
 </ion-content>
 ```
 

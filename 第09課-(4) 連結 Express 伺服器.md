@@ -38,7 +38,7 @@ ionic start myApp blank --save
 
 #### (2)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
 ```
-下載\ionic-測試-09-3.zip
+下載\ionic-測試-09-4.zip
 ```
 
 
@@ -143,30 +143,29 @@ export class HomePage {
 #### (3.3) home.html
 ```html
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-	<!-- -------------------------------- -->
-	<ion-list>
+    <!-- -------------------------------- -->
+    <ion-list>
+        <ion-item>
+            <ion-label floating>帳號</ion-label>
+            <ion-input type="text" [(ngModel)]="userName"></ion-input>
+        </ion-item>
 
-		<ion-item>
-			<ion-label floating>帳號</ion-label>
-			<ion-input type="text" [(ngModel)]="userName"></ion-input>
-		</ion-item>
+        <ion-item>
+            <ion-label floating>密碼</ion-label>
+            <ion-input type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
 
-		<ion-item>
-			<ion-label floating>密碼</ion-label>
-			<ion-input type="password" [(ngModel)]="password"></ion-input>
-		</ion-item>
-
-		<button ion-button block style="margin-top:50px" (click)="sendData()">登入</button>		
-	</ion-list>
-	<!-- -------------------------------- -->	
+        <button ion-button block style="margin-top:50px" (click)="sendData()">登入</button>		
+    </ion-list>
+    <!-- -------------------------------- -->	
 </ion-content>
 ```
 

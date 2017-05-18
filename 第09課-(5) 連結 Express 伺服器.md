@@ -1,6 +1,9 @@
 # 第09課-(5) 連結 Express 伺服器 (用POST傳送輸入值)
 
 
+#### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin
+
+
 
 #### 執行圖示
 ![GitHub Logo](/images/fig09-05.jpg)

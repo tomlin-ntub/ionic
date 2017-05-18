@@ -1,6 +1,9 @@
 # 第09課-(1) 連結 Express 伺服器
 
 
+#### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin
+
+
 
 #### 執行圖示
 ![GitHub Logo](/images/fig09-01.jpg)

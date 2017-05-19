@@ -1,17 +1,4 @@
-/*
-Navicat MySQL Data Transfer
 
-Source Server         : case
-Source Server Version : 50716
-Source Host           : localhost:3306
-Source Database       : fooddb
-
-Target Server Type    : MYSQL
-Target Server Version : 50716
-File Encoding         : 65001
-
-Date: 2017-05-19 16:24:33
-*/
 
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
@@ -45,3 +32,5 @@ INSERT INTO `foods` VALUES ('7', '斑比咖啡 Bambi Bambi Brunch', 'Bernice 小
 INSERT INTO `foods` VALUES ('8', '披薩斜塔', '西西漫走筆記', '繼上次在披薩斜塔吃過披薩餃和夏威夷披薩後超驚豔!這次下午來嚐嚐他的甜披薩，這份香蕉巧克力口味的甜披薩份量不小，兩個人合吃綽綽有餘，香蕉和巧克力的香氣濃郁又合拍，餅皮Q彈不油膩，相當好吃，瑪格莉特披薩，用上好的番茄醬汁和新鮮番茄當作主角，起司香氣濃郁，加上羅勒香氣提味，讓這份配料簡單的披薩意外的好吃!', '34', '129', '2017-05-03', 'a8.jpg', 'b8.jpg', 't8.jpg');
 INSERT INTO `foods` VALUES ('9', '里海咖啡/里海café', 'ayeu0406', '晚餐時間還是得開車到礁溪車站附近覓食 之前看到其他人分享里海咖啡的餐點 很吸引人 所以難得來礁溪住一晚 就馬上預定晚餐來里海咖啡用餐拉 里海咖啡其實離礁溪車站主要熱鬧區域有一大段距離 而里海咖啡附近喜互惠超市前有一大塊空地 是挺方便停車的 里海咖啡外觀算是相當低調 若是沒特別注意 真的會不小心miss掉', '4', '55', '2017-05-02', 'a9.jpg', 'b9.jpg', 't9.jpg');
 INSERT INTO `foods` VALUES ('10', '宜蘭【Dew 36 綻露】 coffee elite', 'peonykey', '請給我來一杯。不要忽略貓咪的請求~~~【Dew 36 綻露 】coffee elite 就像插畫裡的貓咪 溫暖、舒適、充滿人情味【Dew36 】以濾杯萃取 綻放為滴滴馥郁的咖啡精露 象徵對咖啡執著與分享~從天花板到地面的大menu 是店內的特色之一 抬頭就可以直接選擇 今天想品嘗的咖啡啦~【冰滴咖啡】 完全以冷水滴濾 萃取出  香濃、渾厚、滑順而不酸澀喝過之後  久久無法忘懷~', '12', '34', '2017-04-16', 'a10.jpg', 'b10.jpg', 't10.jpg');
+
+

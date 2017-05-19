@@ -27,7 +27,7 @@ npm install cors --save
 
 #### (3)下載樣板網站, 解壓縮後複製到<myWeb>資料夾中(取代舊檔案):
 ```
-下載\myWeb-測試-11.zip
+下載\myWeb-接收文字參數.zip
 ```
 
 

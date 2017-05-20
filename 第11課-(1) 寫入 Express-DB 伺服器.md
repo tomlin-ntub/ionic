@@ -155,8 +155,9 @@ export class HomePage {
         let headers = new Headers({ 'Content-Type': 'application/json' });
         let options = new RequestOptions({ headers: headers });
         let data={'username':this.userName, 'password':this.password};
-		
-        this.http.post(url, data, options)			
+   
+        // 向主機發出POST請求
+        this.http.post(url, data, options)			
             .subscribe(
                 (data) => {
                     let ret=data.json();     //接收主機回傳代碼

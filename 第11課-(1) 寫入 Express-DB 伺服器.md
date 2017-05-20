@@ -142,11 +142,11 @@ export class HomePage {
     userName:string;
     password:string;
 
-    //----------------------------------------------------------------	
+    //..........................................
     constructor(public navCtrl: NavController, public http:Http, public alertCtrl: AlertController) {}
 
 
-    //----------------------------------------------------------------
+    //..........................................
     register(){
         // 改為自己的主機位址
         let url='105stu.ntub.edu.tw';
@@ -177,7 +177,7 @@ export class HomePage {
     }
 
 
-    //----------------------------------------------------------------
+    //..........................................
     showAlert() {
         let alert = this.alertCtrl.create({
             title: '連線失敗!',
@@ -187,7 +187,7 @@ export class HomePage {
         alert.present();
     }
 
-    //----------------------------------------------------------------
+    //..........................................
     showSuccess() {
         let alert = this.alertCtrl.create({
             title: '註冊成功!',
@@ -220,7 +220,7 @@ export class HomePage {
 </ion-header>
 
 <ion-content padding>
-    <!-- -------------------------------- -->
+    <!-- ............................ -->
     <ion-list>
         <ion-item>
             <ion-label floating>帳號</ion-label> 
@@ -234,6 +234,7 @@ export class HomePage {
 
         <button ion-button block style="margin-top:50px" (click)="register()">註冊</button>		
     </ion-list>
+    <!-- ............................ -->    
 </ion-content>
 ```
 

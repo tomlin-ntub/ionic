@@ -15,8 +15,13 @@ ionic start myApp blank --save
 ```
 
 
+#### (2)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
+```
+下載\ionic-測試-13-1.zip
+```
 
-#### (2.1) index.html (增加引用 Google Map API)
+
+#### (3.1) index.html (增加引用 Google Map API)
 ```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -55,7 +60,9 @@ ionic start myApp blank --save
 </html>
 ```
 
-#### (2.2) home.html
+
+
+#### (3.2) home.html
 ```html
 <ion-header>
   <ion-navbar>
@@ -74,7 +81,9 @@ ionic start myApp blank --save
 </ion-content>
 ```
 
-#### (2.3) home.ts
+
+
+#### (3.3) home.ts
 ```javascript
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -133,7 +142,8 @@ export class HomePage {
 ```
 
 
-#### (2.4) home.scss
+
+#### (3.4) home.scss
 ```javascript
 page-home {
   .scroll-content {
@@ -147,7 +157,10 @@ page-home {
 }
 ```
 
-#### (3)本測試使用內容如下:
+
+
+
+#### (4)本測試使用內容如下:
 ```
  d:\
   |___ <myApp>           

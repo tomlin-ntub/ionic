@@ -66,11 +66,11 @@ ionic start myApp blank --save
 </ion-header>
 
 <ion-content>
-  <!-- ---------------------------- -->
+  <!-- ........................... -->
   <ion-content>
     <div #mapContainer id="map"></div>
   </ion-content>
-  <!-- ---------------------------- -->  
+  <!-- ........................... --> 
 </ion-content>
 ```
 

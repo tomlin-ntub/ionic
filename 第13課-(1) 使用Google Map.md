@@ -96,6 +96,8 @@ declare var google;
 })
 export class HomePage {
   //---------------------------------------------------
+  // 成員  
+  //---------------------------------------------------
   @ViewChild('mapContainer') mapContainer: ElementRef;
   map: any;
 
@@ -105,11 +107,16 @@ export class HomePage {
     'name':'北商大'
   };  
 
+
   //--------------------------------------------------- 
+  // 建構元
+  //---------------------------------------------------  
   constructor(public navCtrl: NavController) {}
   
   
-  //--------------------------------------------------- 
+  //---------------------------------------------------  
+  // 畫面完成後執行
+  //---------------------------------------------------  
   ionViewWillEnter() {
     this.displayGoogleMap();
     this.addMarkersToMap();
@@ -131,6 +138,8 @@ export class HomePage {
   }
 
 
+  //--------------------------------------------------- 
+  // 顯示Google地圖
   //--------------------------------------------------- 
   addMarkersToMap() {
     var position = new google.maps.LatLng(this.center.lat, this.center.lng);

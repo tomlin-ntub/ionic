@@ -1,0 +1,117 @@
+# 第12課-(3) 上傳圖片-裁切-註冊
+
+
+## 有圖片及資料庫, 也有其他文字欄位資料一同上傳
+
+
+#### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin
+
+
+#### 執行圖示
+![GitHub Logo](/images/fig12-03.jpg)
+
+
+
+## 資料庫部份
+
+#### (1)建立一個MySQL的testdb資料庫, 資料表可下載:
+```
+下載\testdb.sql
+```
+
+
+
+## 網站部份
+
+#### (1)建立Express網站, 名稱為 myWeb:
+```
+express myWeb -ejs
+cd myWeb
+npm install
+```
+
+
+#### (2)追加外掛:
+```
+npm install mysql --save
+npm install fs --save
+npm install cors --save
+npm install multer --save
+npm install easyimage --save
+```
+
+#### (3)安裝imageMagick:
+```
+下載/ImageMagick-6.7.3-4-Q16-windows-dll.exe
+```
+
+
+#### (4)下載樣板網站, 解壓縮後複製到<myWeb>資料夾中(取代舊檔案):
+```
+下載\myWeb-12-3.zip
+```
+
+#### (5)網站簡易架構
+```
+ d:\
+  |___ <myWeb>           
+          |___ <public>
+                 |___ app.js
+                 |
+                 |___ <uploads> 
+                 |       |___ (圖片上傳後的儲存位置)
+                 |                 
+                 |___ <routes>   
+                         |___ <lib>
+                         |      |___ db.js
+                         |                          
+                         |___ index.js 
+                         
+
+```
+
+
+
+
+
+## App部份
+
+#### (1)建立一個App, 名稱為 myApp:
+```
+ionic start myApp blank --save
+```
+
+
+#### (2)安裝angular2-image-upload外掛
+```
+npm install angular2-image-upload --save
+```
+
+
+#### (3)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
+```
+下載\ionic-測試-12-3.zip
+```
+
+
+#### (4)手機簡易架構:
+```
+ d:\
+  |___ <myApp> 
+          |___ <node_modules>
+          |         |___ <angular2-image-upload>  
+          |                    |___ <lib>                           
+          |                            |___ <image-upload>  
+          |                                       |___ image-upload.components.js (可改上傳圖片外掛顯示樣式)          
+          |                           
+          |___ <src>
+                 |___ <app> 
+                 |       |___ app.module.ts (增加引用HttpModule及ImageUploadModule)
+                 |                 
+                 |___ <pages>   
+                         |___ <home> 
+                                |___ home.html 
+                                |___ home.ts     
+                                |___ home.scss                                 
+```
+

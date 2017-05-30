@@ -87,7 +87,7 @@ export class HomePage {
     // 建構元    
     //----------------------------------    
     constructor(public navCtrl: NavController, public http:Http, public alertCtrl: AlertController) {
-		    this.loadData();	
+        this.loadData();	
     }
 
 
@@ -104,7 +104,7 @@ export class HomePage {
                 (data) => {
                     this.items=data.json();
 
-                    if(this.items.length==0){
+                    if(this.items.length==0){  
                         this.showNotFound();
                         return;
                     }

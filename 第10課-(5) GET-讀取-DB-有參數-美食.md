@@ -24,7 +24,7 @@ ionic start myApp blank --save
 
 #### (2)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
 ```
-下載\ionic-測試-10-4.zip
+下載\ionic-測試-10-5.zip
 ```
 
 

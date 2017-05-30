@@ -1,4 +1,4 @@
-# 第11課-(1) 寫入 Express-DB 伺服器 (POST)
+# 第11課-(1) POST-寫入資料庫-帳密
 
 
 #### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin

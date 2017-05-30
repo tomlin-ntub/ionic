@@ -22,7 +22,7 @@ npm install cors --save
 
 #### (4)下載樣板網站, 解壓縮後複製到<myWeb>資料夾中(取代舊檔案):
 ```
-下載\myWeb-美食JSON-資料庫.zip
+下載\myWeb-10-1.zip
 ```
 
 
@@ -95,6 +95,9 @@ function sendData(req, res){
             for(var i=0; i<results.length; i++){
                 var food={};
                 food.name=results[i].name;
+                food.city=results[i].city;
+                food.lat=results[i].lat;
+                food.lng=results[i].lng;		
                 food.author=results[i].author;
                 food.comment=results[i].comment;
                 food.like=results[i].like;

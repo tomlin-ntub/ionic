@@ -71,7 +71,7 @@ var pool = require('./lib/db.js');
 //------------------
 router.get('/', function(req, res, next) {   
     var city=req.query.city.trim();  //取得使用者傳來的參數
-	console.log('GET:'+city);
+    console.log('GET:'+city);
 	
     sendData(req, res, city);	
 });
@@ -81,7 +81,7 @@ router.get('/', function(req, res, next) {
 //------------------
 router.post('/', function(req, res, next) {
     var city=req.body.city.trim();  //取得使用者傳來的參數
-	console.log('POST:'+city);
+    console.log('POST:'+city);
 	
     sendData(req, res, city);			
 });

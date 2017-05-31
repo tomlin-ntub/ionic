@@ -3,7 +3,7 @@
 
 #### 參考來源 http://ionicframework.com/docs/native/facebook/
 
-#### 執行圖示 (只能在手機執行, 在模擬器執行會失敗)
+#### 執行圖示 (**只能在手機執行, 在模擬器執行會失敗)
 ![GitHub Logo](/images/fig14-01.jpg)
 
 

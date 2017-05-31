@@ -175,15 +175,16 @@ export class HomePage {
         }      
 
         if (this.selectedImageFiles[0]) {
+            // 傳給主機的參數	
             let input = new FormData();
 
-            // 傳給主機的圖片
+            // 在參數中加入圖片
             for(var i=0; i<this.selectedImageFiles.length; i++){
                 input.append("pictures", this.selectedImageFiles[i]);
             }		      
 
-            // 傳給主機的文字
-            input.append('name', this.name);
+            // 在參數中加入文字
+            input.append('name', this.name);
             input.append('city', this.city);
             input.append('author', this.author);
      

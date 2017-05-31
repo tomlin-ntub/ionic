@@ -56,9 +56,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-//---------------------------------------------------
-import { Facebook } from '@ionic-native/facebook';
-//---------------------------------------------------
+import { Facebook } from '@ionic-native/facebook';  //**增加
 
 @NgModule({
   declarations: [
@@ -77,7 +75,7 @@ import { Facebook } from '@ionic-native/facebook';
   providers: [
     StatusBar,
     SplashScreen,
-    Facebook,      //增加
+    Facebook,      //**增加
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

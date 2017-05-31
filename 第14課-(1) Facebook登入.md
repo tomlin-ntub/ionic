@@ -31,7 +31,7 @@ ionic start myApp blank --save
 cd myApp
 
 (a)
-ionic cordova plugin add cordova-plugin-facebook4 --variable APP_ID="應用程式編號" --variable APP_NAME="顯示名稱"
+cordova plugin add cordova-plugin-facebook4 --variable APP_ID="應用程式編號" --variable APP_NAME="顯示名稱"
 
 (b)
 npm install --save @ionic-native/facebook

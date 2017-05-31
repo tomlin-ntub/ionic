@@ -137,6 +137,7 @@ export class HomePage {
     // 寫入資料
     //----------------------------------            
     writeData(){
+        // 如果未輸入資料
         if(this.name=="" || this.city=="" || this.author==""){
             this.showNoEntry();
             return;
@@ -151,15 +152,18 @@ export class HomePage {
         this.http.get('http://192.168.56.1/writeFood', {search: params})			
             .subscribe(
                 (data) => {
-                    let rtn=data.json();
+                    // 接收主機回傳代碼
+                    let rtn=data.json();
 
-                    if(rtn.code==0){
-                        this.showSuccess(); 
+                    if(rtn.code==0){
+                        // 如果寫入成功       
+                        this.showSuccess(); 
                         this.name="";
                         this.city="";
                         this.author="";                       
                     }else{
-                        this.showFail();
+                        // 如果寫入失敗                     
+                        this.showFail();
                     }
                 },
                 (err) => {this.showAlert();}

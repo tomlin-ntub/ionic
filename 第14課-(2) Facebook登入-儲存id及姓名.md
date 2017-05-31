@@ -19,10 +19,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.abc.myFBapplication" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>myApp</name>   
-....
-```
-
-#### (2)安裝外掛:
 ```
 
 ##### 準備工作 (3)取出個人FB基本資料測試

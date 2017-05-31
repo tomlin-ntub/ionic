@@ -187,8 +187,8 @@ export class HomePage {
             input.append('city', this.city);
             input.append('author', this.author);
      
-            //***改主機位址***
-            this.http.post("http://120.97.15.192/writeFood", input)
+            //***改成自己的主機位址***
+            this.http.post("http://192.168.56.1/writeFood", input)
                 .subscribe(
                     (data) => {
                         //接收主機回傳代碼

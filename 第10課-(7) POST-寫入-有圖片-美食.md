@@ -1,7 +1,7 @@
 # 第10課-(7) POST-寫入-有圖片-美食
 
 
-## 有圖片及資料庫, 也有其他文字欄位資料一同上傳
+## 有圖片及文字欄位, 上傳寫入資料庫
 
 
 #### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin

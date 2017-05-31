@@ -11,8 +11,15 @@
 ![GitHub Logo](/images/fig14-01-0.jpg)
 
 
-##### 準備工作 (2)應用程式編號(不可改), 顯示名稱(即先前新增應用程式之名稱), Google Play套件名稱(可自行更改)
+##### 準備工作 (2)應用程式編號(不可改), 顯示名稱(即先前新增應用程式之名稱), Google Play套件名稱(與config.xml的id相同)
 ![GitHub Logo](/images/fig14-01-1.jpg)
+
+##### config.xml(部分)
+```
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.abc.myFBapplication" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>myApp</name>   
+```
 
 
 ##### 準備工作 (3)取出個人FB基本資料測試
@@ -182,14 +189,20 @@ export class HomePage {
 #### (5)本測試使用內容如下:
 ```
  d:\
-  |___ <myApp>           
+  |___ <myApp>  
+          |___ config.xml
+          |
           |___ <src>
                  |___ <app>
                  |       |___ app.module.ts                  
                  |                  
                  |___ <pages>   
                          |___ <home> 
-                                |___ home.html 
-                                |___ home.ts                                 
+                         |      |___ home.html 
+                         |      |___ home.ts  
+                         |      
+                         |___ <second> 
+                                |___ second.html 
+                                |___ second.ts                                
 ```
 

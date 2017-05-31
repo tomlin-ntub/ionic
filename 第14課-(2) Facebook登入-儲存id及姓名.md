@@ -291,7 +291,9 @@ export class Second {
 #### (5)本測試使用內容如下:
 ```
  d:\
-  |___ <myApp>           
+  |___ <myApp>  
+          |___ config.xml
+          |
           |___ <src>
                  |___ <app>
                  |       |___ app.module.ts                  

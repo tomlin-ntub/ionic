@@ -98,7 +98,7 @@ import { HomePage } from '../pages/home/home';
   ],
   imports: [
     BrowserModule,
-    HttpModule,                  /* 增加 */    
+    HttpModule,    /* 增加 */    
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -109,7 +109,7 @@ import { HomePage } from '../pages/home/home';
   providers: [
     StatusBar,
     SplashScreen,
-    MyService,     /* 增加 */    
+    MyService,     /* 增加 */  
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
@@ -150,8 +150,17 @@ export class HomePage {
     //----------------------------------            
     loadData(city){
         this.myService.load(city).then(
-            (data) => {
-                this.items = data;
+            (results) => {  
+                if(results==-1){
+                    this.showAlert();
+                    return;
+                }else{                                          
+                    this.items = results;
+                    if(this.items.length==0){
+                        this.showNotFound();
+                        return;
+                    }
+                }    
             }
         );
     }
@@ -196,10 +205,9 @@ export class HomePage {
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
+<ion-content>  
   <!-- .................................. -->  
-  <div padding>
+  <div>
     <ion-segment>
       <ion-segment-button (click)="loadData('台北')">
         台北
@@ -212,7 +220,10 @@ export class HomePage {
       </ion-segment-button>
       <ion-segment-button (click)="loadData('宜蘭')">
         宜蘭
-      </ion-segment-button>                      
+      </ion-segment-button>  
+      <ion-segment-button (click)="loadData('高雄')">
+        高雄
+      </ion-segment-button>                            
     </ion-segment>
   </div>
   <!-- .................................. -->
@@ -233,37 +244,40 @@ export class HomePage {
 #### (3.4) my-service.ts
 ```javascript
 import { Injectable } from '@angular/core';
-import { Http, URLSearchParams } from '@angular/http';
+import { Http, URLSearchParams } from '@angular/http';  /* 加入 URLSearchParams */
 import 'rxjs/add/operator/map';
 
 
 @Injectable()
 export class MyService {
+    //-------------------------
+    // 建構元
+    //-------------------------
+    constructor(public http: Http) {}
 
-  data:any;
+    //-------------------------------------
+    // 載入資料函式
+    //-------------------------------------
+    load(city){
+        return new Promise(resolve => {
+            // 傳給主機的參數
+            let params: URLSearchParams = new URLSearchParams();
+            params.set('city', city);    
 
-  constructor(public http: Http) {}
-
-  load(city){
-    return new Promise(resolve => {
-      // 傳給主機的參數
-      let params: URLSearchParams = new URLSearchParams();
-      params.set('city', city);    
-
-      this.http.get('http://192.168.56.1', {search: params})	
-        .map(res => res.json())
-        .subscribe(
-          (data) => {  
-            this.data=data;          
-            resolve(this.data);
-          },
-          (err) => {
-            this.data=[];
-            resolve(this.data);
-          }
-        );
-    });
-  }
+            // 修改主機位址
+            this.http.get('http://192.168.56.1', {search: params})	
+                .map(res => res.json())
+                .subscribe(
+                    (data) => {                           
+                        resolve(data);  //成功取回資料                              
+                    },
+                    (err) => {
+                        resolve(-1);    //取回資料失敗
+                    }
+                );
+            });
+    }
+    //-------------------------------------
 }
 ```
 

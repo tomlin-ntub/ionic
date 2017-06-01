@@ -1,9 +1,6 @@
 # 第15課-(1) 加入Provider
 
 
-## 有圖片及文字欄位, 上傳寫入資料庫
-
-
 #### 如在Chrome中執行模擬器, 先安裝Chrome Extension: Allow-Control-Allow_Origin
 
 

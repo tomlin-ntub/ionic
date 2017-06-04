@@ -78,7 +78,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-import { HttpModule } from '@angular/Http';  //**增加
+import { HttpModule } from '@angular/http';  //**增加
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -112,7 +112,7 @@ export class AppModule {}
 ```javascript
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Http, URLSearchParams } from '@angular/Http';
+import { Http, URLSearchParams } from '@angular/http';
 import { AlertController } from 'ionic-angular';
 
 @Component({

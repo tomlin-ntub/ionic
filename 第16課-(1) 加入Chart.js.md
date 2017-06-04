@@ -20,14 +20,7 @@ npm install chart.js --save
 ```
 
 
-#### (3)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
-```
-下載\ionic-測試-16-1.zip
-```
-
-
-
-#### (4.1) home.ts (加入Chart引用)
+#### (3.1) home.ts (加入Chart引用)
 ```javascript
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -93,7 +86,7 @@ export class HomePage {
 ```
 
 
-#### (4.2) home.html
+#### (3.2) home.html
 ```html
 <ion-header>
   <ion-navbar>

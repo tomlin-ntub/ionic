@@ -40,7 +40,7 @@ npm install cors --save
 下載\myWeb-15-1.zip
 ```
 
-#### (5)網站簡易架構
+#### (4)網站簡易架構
 ```
  d:\
   |___ <myWeb>           
@@ -117,7 +117,7 @@ export class AppModule {}
 ```
 
 
-#### (3.2) home.ts
+#### (4.2) home.ts
 ```javascript
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -195,7 +195,7 @@ export class HomePage {
 }
 ```
 
-#### (3.3) home.html
+#### (4.3) home.html
 ```html
 <ion-header>
   <ion-navbar>
@@ -241,7 +241,7 @@ export class HomePage {
 ```
 
 
-#### (3.4) my-service.ts
+#### (4.4) my-service.ts
 ```javascript
 import { Injectable } from '@angular/core';
 import { Http, URLSearchParams } from '@angular/http';  /* 加入 URLSearchParams */
@@ -284,7 +284,7 @@ export class MyService {
 
 
 
-#### (4)手機簡易架構:
+#### (5)手機簡易架構:
 ```
  d:\
   |___ <myApp>                                      

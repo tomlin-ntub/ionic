@@ -87,14 +87,7 @@ npm install angular2-image-upload --save
 ```
 
 
-#### (3)下載樣板程式, 解壓縮後複製到<myApp>資料夾中(取代舊檔案):
-```
-下載\ionic-測試-10-7.zip
-```
-
-
-
-#### (4.1) app.module.ts (增加匯入 HttpModule及ImageUploadModule)
+#### (3.1) app.module.ts (增加匯入 HttpModule及ImageUploadModule)
 ```javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';

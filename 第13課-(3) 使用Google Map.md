@@ -53,7 +53,10 @@ ionic start myApp blank --save
 
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
-
+  
+  <!-- 增加 -->
+  <script src="build/vendor.js"></script>
+  
   <!-- The bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 

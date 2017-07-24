@@ -36,7 +36,7 @@ npm install --save @ionic-native/fcm
 
 #### (4) 修改config.xml, 其中 com.abc.myapplication 應與第17課-(5)設定的套件名稱相同.
 ```
-<widget id="com.abc.myfcmapp" .....>
+<widget id="com.abc.myapplication" .....>
 ```
 
 

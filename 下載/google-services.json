@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "228167580756",
+    "firebase_url": "https://myionicchat-b15be.firebaseio.com",
+    "project_id": "myionicchat-b15be",
+    "storage_bucket": "myionicchat-b15be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228167580756:android:8a9739f7129ba746",
+        "android_client_info": {
+          "package_name": "com.ionicframework.myapp29605772"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228167580756-oucoggo2e244njt656up06h8fof45do5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8nF7IJu1vYeRZcYm3w5HHWcaof5TO9cA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228167580756:android:0193d4a6c1d8928e",
+        "android_client_info": {
+          "package_name": "com.abc.myfcmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228167580756-oucoggo2e244njt656up06h8fof45do5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8nF7IJu1vYeRZcYm3w5HHWcaof5TO9cA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

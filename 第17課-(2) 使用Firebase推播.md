@@ -21,7 +21,6 @@ npm install --save @ionic-native/fcm
  d:\
   |___ <myApp>   
           |___ google-services.json
-          |          
           |___ config.xml          
           |           
           |___ <src>                 

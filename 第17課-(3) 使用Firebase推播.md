@@ -127,11 +127,11 @@ export class AppModule {}
 ## 測試推播
 
 #### (1)進入 console.firebase.google.com, 選擇在第17課-(1)中建立的專案, 開始使用Notifications功能
-![GitHub Logo](/images/fig17-3-01.jpg)
+![GitHub Logo](/images/fig17-2-01.jpg)
 
 
 #### (2)選擇新增訊息
-![GitHub Logo](/images/fig17-3-02.jpg)
+![GitHub Logo](/images/fig17-2-02.jpg)
 
 
 #### (3)加入訊息文字, 選擇應用程式, 即可推播訊息

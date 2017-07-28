@@ -84,6 +84,12 @@ module.exports = pool;
 
 
 #### (4)index.js
+
+##### 伺服器金鑰
+![GitHub Logo](/images/fig17-4-01.jpg)
+
+
+##### 程式
 ```javascript
 var express = require('express');
 var router = express.Router();

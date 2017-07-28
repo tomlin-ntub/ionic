@@ -339,7 +339,7 @@ export class HomePage {
         params.set('content', token);
 
         // 改為自己的主機位址
-        this.http.get('http://105stu.ntub.edu.tw', {search: params})			
+        this.http.get('http://???.???.???.???', {search: params})			
             .subscribe(
                 (data) => {
                   this.data=data.json();

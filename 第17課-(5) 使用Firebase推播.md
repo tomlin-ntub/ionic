@@ -246,3 +246,14 @@ import { FCM } from '@ionic-native/fcm';
 })
 export class AppModule {}
 ```
+
+
+## 推播測試
+
+```
+先啟動Express主機:
+npm start
+
+再使用瀏覽器連結Express主機:
+http://主機位址?topic=marketing;content=你好
+```

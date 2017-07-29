@@ -1,4 +1,4 @@
-# 第17課-(4) 使用Firebase推播 (Express --> Firebase --> 手機)
+# 第17課-(4) 使用Firebase推播 (Express --> Firebase --> 手機(個人))
 
 
 

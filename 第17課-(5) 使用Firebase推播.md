@@ -251,7 +251,7 @@ export class AppModule {}
 ## 推播測試
 
 ```
-先啟動Express主機:
+先啟動Express主機(不可用虛擬IP):
 npm start
 
 再使用瀏覽器連結Express主機:

@@ -200,20 +200,20 @@ module.exports = router;
     <body>
         <h1>推播測試</h1>
         <form  method="post" action="/notify">		
-		        <p>
-			          主題<br>
-			          <input type="text" name="topic" value="marketing"><br>
-		        </p>
+            <p>
+                主題<br>
+                <input type="text" name="topic" value="marketing"><br>
+            </p>
 		
-		        <p>
-			          內容<br>
-			          <input type="text" name="content" value="你好">
-		        </p>
+            <p>
+                內容<br>
+                <input type="text" name="content" value="你好">
+            </p>
 		
-		        <p>
-			          <input type="submit" value="送出">
-		        </p>	
-	      </form>
+            <p>
+	        <input type="submit" value="送出">
+            </p>	
+        </form>
     </body>
 </html>
 ```

@@ -2,6 +2,16 @@
 # Express --> Firebase --> 手機(訂閱主題)
 
 
+## 測試方式
+
+```
+先啟動Express主機(不可用虛擬IP):
+npm start
+
+再使用瀏覽器連結Express主機:
+http://主機位址?topic=marketing;content=你好
+```
+
 ## Express部份
 
 #### (1)建立一個Express網站, 名稱為 myWeb:
@@ -247,13 +257,3 @@ import { FCM } from '@ionic-native/fcm';
 export class AppModule {}
 ```
 
-
-## 推播測試
-
-```
-先啟動Express主機(不可用虛擬IP):
-npm start
-
-再使用瀏覽器連結Express主機:
-http://主機位址?topic=marketing;content=你好
-```
